@@ -48,6 +48,4 @@ This project manual outlines the steps to set up and execute API testing for the
 
 Contributions are welcome! If you have any suggestions, improvements, or want to report issues, feel free to create a pull request or open an issue in this repository.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
