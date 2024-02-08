@@ -1,4 +1,4 @@
-# Restful-booker API Testing with Postman
+# Restful-booker API Manual Testing with Postman
 
 # Project Overview
 
@@ -17,15 +17,6 @@ This project manual outlines the steps to set up and execute API testing for the
 
 - **Postman**: Make sure you have Postman installed on your machine. If not, you can download it from [here](https://www.postman.com/downloads/).
 - **Restful-booker API Access**: Ensure that you have access to the Restful-booker API. You can find more information about it [here](https://restful-booker.herokuapp.com/).
-
-# Restful-booker API Manual Testing with Postman
-
-This README provides instructions for conducting manual testing of the Restful-booker API using the Postman tool. The Restful-booker API is a demo API designed for educational and testing purposes.
-
-## Pre-requisites
-
-- **Postman**: Ensure you have Postman installed on your machine. If not, download it from [here](https://www.postman.com/downloads/).
-- **Restful-booker API Access**: Obtain access to the Restful-booker API. Details can be found [here](https://restful-booker.herokuapp.com/).
 
 ## Getting Started
 
