@@ -1,6 +1,6 @@
 # Restful-booker API Testing with Postman
 
-##Project Overview
+# Project Overview
 
 Welcome to the Restful-booker API Testing project! This project aims to help beginners in API testing learn and practice testing skills using the Restful-booker API with Postman. The Restful-booker API is a simple API designed for educational purposes, making it ideal for beginners to explore and understand API testing concepts.
 
@@ -18,6 +18,59 @@ This project manual outlines the steps to set up and execute API testing for the
 - **Postman**: Make sure you have Postman installed on your machine. If not, you can download it from [here](https://www.postman.com/downloads/).
 - **Restful-booker API Access**: Ensure that you have access to the Restful-booker API. You can find more information about it [here](https://restful-booker.herokuapp.com/).
 
+# Restful-booker API Manual Testing with Postman
+
+This README provides instructions for conducting manual testing of the Restful-booker API using the Postman tool. The Restful-booker API is a demo API designed for educational and testing purposes.
+
+## Pre-requisites
+
+- **Postman**: Ensure you have Postman installed on your machine. If not, download it from [here](https://www.postman.com/downloads/).
+- **Restful-booker API Access**: Obtain access to the Restful-booker API. Details can be found [here](https://restful-booker.herokuapp.com/).
+
+## Getting Started
+
+1. **Clone Repository**: Clone this repository to your local machine.
+
+    ```bash
+    git clone <repository_url>
+    ```
+
+2. **Import Postman Collection**: Import the provided Postman collection (`Restful-booker.postman_collection.json`) into your Postman workspace.
+
+    - Open Postman.
+    - Click on "Import".
+    - Choose the `Restful-booker.postman_collection.json` file from the cloned repository.
+
+3. **Import Postman Environment**: Import the Postman environment (`Restful-booker.postman_environment.json`) to configure environment variables.
+
+    - In Postman, click on the gear icon.
+    - Select "Manage Environments".
+    - Click "Import".
+    - Choose the `Restful-booker.postman_environment.json` file from the cloned repository.
+
+4. **Configure Environment Variables**: Set `base_url` to the Restful-booker API base URL (e.g., `https://restful-booker.herokuapp.com`).
+
+## Manual Testing
+
+1. **Authentication Endpoint**:
+   - Send a POST request to `/auth` with valid credentials.
+   - Verify the response contains a valid token.
+
+2. **Create Booking**:
+   - Send a POST request to `/booking` with required booking details.
+   - Verify the response contains the created booking ID.
+
+3. **Retrieve Booking**:
+   - Send a GET request to `/booking/{bookingId}` with a valid booking ID.
+   - Verify the response contains details of the specified booking.
+
+4. **Update Booking**:
+   - Send a PUT request to `/booking/{bookingId}` with the booking ID and updated details.
+   - Verify the response indicates a successful update.
+
+5. **Delete Booking**:
+   - Send a DELETE request to `/booking/{bookingId}` with a valid booking ID.
+   - Verify the response indicates a successful deletion.
 
 
 ## Contributing
