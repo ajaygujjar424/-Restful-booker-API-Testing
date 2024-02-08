@@ -4,8 +4,8 @@
 
 Welcome to the Restful-booker API Testing project! This project aims to help beginners in API testing learn and practice testing skills using the Restful-booker API with Postman. The Restful-booker API is a simple API designed for educational purposes, making it ideal for beginners to explore and understand API testing concepts.
 
-##Key Objectives
-Learning: Gain hands-on experience with API testing concepts, including sending requests, validating responses, and working with different HTTP methods.
+# Key Objectives
+**Learning**: Gain hands-on experience with API testing concepts, including sending requests, validating responses, and working with different HTTP methods.
 
 Practical Skills: Develop practical skills in using Postman for testing API endpoints, including authentication, creating, updating, and deleting bookings.
 
