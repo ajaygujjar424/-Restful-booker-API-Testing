@@ -1,4 +1,5 @@
 # Restful-booker API Manual Testing with Postman
+This project focuses on conducting comprehensive API testing for the Restful-booker API using the Postman tool. The Restful-booker API serves as a demonstration API designed for educational and testing purposes. Through this project, we aim to ensure the reliability, functionality, and performance of the Restful-booker API endpoints.
 
 # Project Overview
 
